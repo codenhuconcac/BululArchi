@@ -1,0 +1,28 @@
+namespace MX.Data.Excel;
+ 
+table LocalizeExcel {
+  Key:uint;
+  Kr:string;
+  Jp:string;
+  Th:string;
+  Tw:string;
+  En:string;
+}
+ 
+table ScenarioScriptExcel {
+  GroupId:long;
+  SelectionGroup:long;
+  BGMId:long;
+  Sound:string;
+  Transition:uint;
+  BGName:uint;
+  BGEffect:uint;
+  PopupFileName:string;
+  ScriptKr:string;
+  TextJp:string;
+  TextTh:string;
+  TextTw:string;
+  TextEn:string;
+  VoiceId:uint;
+  TeenMode:bool;
+}
